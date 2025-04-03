@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd Project</title>
+</head>
+<body>
+
+    <h2>Your Name</h2>
+    <p>
+        <a href="#">Home</a> /
+        <a href="#">Projects</a>  /
+        <a href="#">Articles</a> /
+        <a href="#">Contact</a>
+    </p>
+
+    <h2>Frontend Developer</h2>
+    <p>HTML only with proper layout, no styling</p>
+
+    <table border="1" width="100%">
+        <tr>
+            <th>Projects</th>
+            <th>Work Experience</th>
+            <th>Education</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li>HTML Only Portfolio</li>
+                    <li>Calculator</li>
+                    <li>Quiz App</li>
+                    <li>Countdown Timer</li>
+                    <li>Product Upcoming Page</li>
+                </ul>
+            </td>
+            <td>
+                <p><strong>roadmap.sh</strong><br>
+                Solved all the frontend projects.<br>
+                <a href="#">Visit my Profile</a></p>
+
+                <p><strong>Open Source Work</strong><br>
+                Contributed to 50 open-source projects. Made my own projects with 200 GitHub Stars.<br>
+                <a href="#">Visit my GitHub Profile</a></p>
+            </td>
+            <td>
+                <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                
+                <p><strong>Courses I took:</strong></p>
+                    <p>
+                        - Object Oriented Programming <br>
+                        - Data Structures and Algorithms <br>
+                        - Web Engineering <br>
+                        - Artificial Intelligence <br>
+                        - Human Computer Interaction <br>
+                        - Computer Graphics <br>
+                        - Database Management Systems <br>
+                        - Distributed Database Systems <br>
+                        - Discrete Mathematics <br>
+                    </p>
+            </td>
+        </tr>
+    </table>
+
+    <h3>Reviews from my Teachers</h3>
+
+    <table border="1" width="100%">
+        <tr>
+            <td>
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </td>
+            <td>
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </td>
+            <td>
+                <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                <p><strong>Jane Doe</strong><br>Assistant Professor</p>
+            </td>
+        </tr>
+    </table>
+
+    <p>© all rights reserved 2025</p>
+
+</body>
+</html>
