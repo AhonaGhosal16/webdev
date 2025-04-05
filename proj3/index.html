@@ -3,56 +3,178 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Frontend Developer Portfolio</title>    
 </head>
 <body>
     <div class="container">
-        <h2>Frontend Developer</h2>
-        <p style="text-align: center;">HTML only with proper layout, no styling</p>
-        
-        <div class="section projects">
-            <h3>Projects</h3>
-            <ul>
-                <li>HTML Only Portfolio</li>
-                <li>Calculator</li>
-                <li>Quiz App</li>
-                <li>Countdown Timer</li>
-                <li>Product Upcoming Page</li>
-            </ul>
+        <!-- Left Panel -->
+        <div class="left-panel">
+            <!-- Header Section -->
+            <div class="header">
+                
+                <h1>your name</h1>
+                <div class="nav">
+                    <a href="#">Home</a> / 
+                    <a href="#">Projects</a> / 
+                    <a href="#">Articles</a> / 
+                    <a href="#">Contact</a>
+                </div>
+                <div class="title">Frontend Developer</div>
+                <div class="subtitle">html only with proper layout, no styling</div>
+            </div>
+            
+            <!-- Projects Section -->
+            <div class="section">
+                <div class="section-title">Projects</div>
+                <div class="project-item">HTML Only Portfolio</div>
+                <div class="project-item">Calculator</div>
+                <div class="project-item">Quiz App</div>
+                <div class="project-item">Countdown Timer</div>
+                <div class="project-item">Product Upcoming Page</div>
+            </div>
+            
+            <!-- Work Experience Section -->
+            <div class="section">
+                <div class="section-title">Work Experience</div>
+                <div class="experience-content">
+                    <div class="experience-title">roadmap sh</div>
+                    <div>Solved all the frontend projects</div>
+                    <div class="visit-profile">Visit my Profile</div>
+                </div>
+                
+                <div class="experience-content">
+                    <div class="experience-title">Open-Source Work</div>
+                    <div>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</div>
+                    <div class="visit-profile">Visit my GitHub Profile</div>
+                </div>
+            </div>
+            
+            <!-- Education Section -->
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education-content">
+                    <div>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</div>
+                    <div>Courses I took:</div>
+                    <ul>
+                        <li>Object Oriented Programming</li>
+                        <li>Data Structures and Algorithms</li>
+                        <li>Web Engineering</li>
+                        <li>Artificial Intelligence</li>
+                        <li>Human Computer Interaction</li>
+                        <li>Computer Graphics</li>
+                        <li>Database Management Systems</li>
+                        <li>Distributed Database Systems</li>
+                        <li>Discrete Mathematics</li>
+                      </ul>
+                      <br>
+                </div>
+            </div>
+            
+            <!-- Reviews Section -->
+            <div class="reviews">
+                <div class="section-title">Reviews from my Teachers</div>
+                <div class="review-card">
+                    <div class="review-text">John doe was a brilliant student, always stood out with his assignments.</div>
+                    <div class="reviewer">- Prof. One<br>Assistant Professor</div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="footer">
+                © all rights reserved 2025
+            </div>
         </div>
         
-        <div class="section work">
-            <h3>Work Experience</h3>
-            <p><strong>roadmap.sh</strong><br> Solved all the frontend projects <a href="#">Visit my Profile</a></p>
-            <p><strong>OpenSource Work</strong><br> Contributed to 50 open-source projects. Made my own projects with 200+ GitHub Stars. <a href="#">Visit my GitHub Profile</a></p>
+        <!-- Right Panel -->
+        <div class="right-panel">
+            <!-- Header Section -->
+            <div class="header">
+                <div>
+                    <div class="icon"></div>
+                    <h1>your name</h1>
+                </div>
+                <div class="nav">
+                    <a href="#">Home</a> / 
+                    <a href="#">Projects</a> / 
+                    <a href="#">Articles</a> / 
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            
+            <div>
+                <div style="text-align: center; padding: 20px;">
+                    <div class="title">Frontend Developer</div>
+                    <div class="subtitle">html only with proper layout, no styling</div>
+                </div>
+            </div>
+            
+            <div class="content">
+                <!-- Projects Section -->
+                <div class="section">
+                    <div class="section-title">Projects</div>
+                    <div class="project-item">HTML Only Portfolio</div>
+                    <div class="project-item">Calculator</div>
+                    <div class="project-item">Quiz App</div>
+                    <div class="project-item">Countdown Timer</div>
+                    <div class="project-item">Product Upcoming Page</div>
+                </div>
+                
+                <!-- Work Experience Section -->
+                <div class="section">
+                    <div class="section-title">Work Experience</div>
+                    <div class="experience-content">
+                        <div class="experience-title">roadmap.sh</div>
+                        <div>Solved all the frontend projects</div>
+                        <div class="visit-profile">Visit my Profile</div>
+                    </div>
+                    
+                    <div class="experience-content">
+                        <div class="experience-title">Open-Source Work</div>
+                        <div>Contributed to 50 opensource projects. Made my own projects with 200 GitHub Stars.</div>
+                        <div class="visit-profile">Visit my GitHub Profile</div>
+                    </div>
+                </div>
+                
+                <!-- Education Section -->
+                <div class="section">
+                    <div class="section-title">Education</div>
+                    <div>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</div>
+                    <div>Courses I took:</div>
+                    <div class="education-item">Object Oriented Programming</div>
+                    <div class="education-item">Data Structures and Algorithms</div>
+                    <div class="education-item">Web Engineering</div>
+                    <div class="education-item">Artificial Intelligence</div>
+                    <div class="education-item">Human Computer Interaction</div>
+                    <div class="education-item">Computer Graphics</div>
+                    <div class="education-item">Database Management Systems</div>
+                </div>
+                
+                <!-- Reviews Section -->
+                <div class="reviews">
+                    <div class="section-title">Reviews from my Teachers</div>
+                    <div class="review-cards">
+                        <div class="review-card">
+                            <div class="review-text">John doe was a brilliant student, always stood out with his assignments.</div>
+                            <div class="reviewer">- Prof. One<br>Assistant Professor</div>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-text">John doe was a brilliant student, always stood out with his assignments.</div>
+                            <div class="reviewer">- Prof. Two<br>Assistant Professor</div>
+                        </div>
+                        <div class="review-card">
+                            <div class="review-text">John doe was a brilliant student, always stood out with his assignments.</div>
+                            <div class="reviewer">- Prof. Three<br>Assistant Professor</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div class="footer">
+                © all rights reserved 2025
+            </div>
         </div>
-        
-        <div class="section education">
-            <h3>Education</h3>
-            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-            <p><strong>Courses I took:</strong></p>
-            <ul>
-                <li>Object Oriented Programming</li>
-                <li>Data Structures and Algorithms</li>
-                <li>Web Engineering</li>
-                <li>Artificial Intelligence</li>
-                <li>Human Computer Interaction</li>
-                <li>Computer Graphics</li>
-                <li>Database Management Systems</li>
-                <li>Distributed Database Systems</li>
-                <li>Discrete Mathematics</li>
-            </ul>
-        </div>
-        
-        <div class="section reviews">
-            <h3>Reviews from my Teachers</h3>
-            <div class="review-box">John Doe was a brilliant student; always stood out with his assignments.<br> - Jane Doe, Assistant Professor</div>
-            <div class="review-box">John Doe was a brilliant student; always stood out with his assignments.<br> - Jane Doe, Assistant Professor</div>
-            <div class="review-box">John Doe was a brilliant student; always stood out with his assignments.<br> - Jane Doe, Assistant Professor</div>
-        </div>
-        
-        <p style="text-align: center;">&copy; all rights reserved 2025</p>
     </div>
 </body>
 </html>
